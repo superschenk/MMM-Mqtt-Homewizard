@@ -1,0 +1,23 @@
+{
+	"name": "MMM-Mqtt-Homewizard",
+	"version": "0.1,0",
+	"description": "Homewizard MQTT for MagicMirror",
+	"main": "MMM-Mqtt-Homewizard.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/superschenk/MMM-Mqtt-Homewizard.git"
+	},
+	"keywords": [
+		"MagicMirror",
+		"mqtt",
+		"Homewizard"
+	],
+	"author": "Tim Schenk",
+	"homepage": "https://github.com/superschenk/MMM-Mqtt-Homewizard#readme",
+	"dependencies": {
+		"mqtt": "^1.14.1"
+	}
+}
