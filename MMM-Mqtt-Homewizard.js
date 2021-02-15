@@ -46,7 +46,8 @@ Module.register('MMM-Mqtt-Homewizard', {
 
   getStyles: function() {
   	return [
-  		'font-awesome.css'
+  		'font-awesome.css',
+      this.file('mmm-mqtt-homewizard.css')
   	]
   },
 

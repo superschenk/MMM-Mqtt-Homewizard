@@ -1,12 +1,49 @@
 <div>
-  <table>
-    <!-- Header   --><tr><td>&nbsp;</td>                                                <td class="small regular normal">Huidig</td>                  <td class="small regular normal" style='padding-left: 50px'>Totaal</td></tr>
-    <!-- Total    --><tr><td class="fas fa-home fa-fw">&nbsp;</td>                      <td class="medium light dimmed">{{ hwdaghuidig }} W</td>      <td class="medium light dimmed">{{ hwdagtotaal }} kWh</td></tr>
-    <!-- Usage    --><tr><td class="fas fa-bolt fa-fw">&nbsp;</td>                      <td class="medium light dimmed">{{ hwverbruikhuidig }} W</td> <td class="medium light dimmed">{{ hwverbruiktotaal }} kWh</td></tr>
-    <!-- Solar    --><tr><td class="fas fa-solar-panel fa-fw">&nbsp;</td>               <td class="medium light dimmed">{{ hwopwerkhuidig }} W</td>   <td class="medium light dimmed">{{ hwopwektotaal }} kWh</td></tr>
-    <!--          --><tr><td colspan="3">&nbsp;</td></tr>
-    <!-- Gas      --><tr><td class="fas fa-burn fa-fw">&nbsp;</td>                      <td>&nbsp;</td>                                               <td class="medium light dimmed">{{ hwgastotaal }} m<sup>3</sup></td></tr>
-    <!-- Rain     --><tr><td class="fas fa-umbrella fa-fw">&nbsp;</td>                  <td>&nbsp;</td>                                               <td class="medium light dimmed">{{ hwregentotaal }} mm</td></tr>
-    <!-- Temp     --><tr><td class="fas fa-thermometer-three-quarters fa-fw">&nbsp;</td><td>&nbsp;</td>                                               <td class="medium light dimmed">{{ hwtemptotaal}} &#8451;</td></tr>
+  <table cellpadding='0' cellspacing='0' class='hw' >
+    <!-- Header   -->
+    <tr class='hw'>
+      <td class="small regular normal hw1">&nbsp;</td>
+      <td class="small regular normal hw2">Huidig</td>
+      <td class="small regular normal hw3">Totaal</td>
+    </tr>
+    <!-- Total    -->
+    <tr class='hw'>
+      <td class="small light bright hw1"><span class="fas fa-home fa-fw">&nbsp;</span></td>
+      <td class="small light bright hw2">{{ hwdaghuidig }} <span class="small light dimmed">W</span></td>
+      <td class="small light bright hw3">{{ hwdagtotaal }} <span class="small light dimmed">kWh</span></td>
+    </tr>
+    <!-- Usage    -->
+    <tr class='hw'>
+      <td class="small light bright hw1"><span class="fas fa-bolt fa-fw">&nbsp;</span></td>
+      <td class="small light bright hw2">{{ hwverbruikhuidig }} <span class="small light dimmed">W</span></td>
+      <td class="small light bright hw3">{{ hwverbruiktotaal }} <span class="small light dimmed">kWh</span></td>
+    </tr>
+    <!-- Solar    -->
+    <tr class='hw'>
+      <td class="small light bright hw1"><span class="fas fa-solar-panel fa-fw">&nbsp;</span></td>
+      <td class="small light bright hw2">{{ hwopwerkhuidig }} <span class="small light dimmed">W</span></td>
+      <td class="small light bright hw3">{{ hwopwektotaal }} <span class="small light dimmed">kWh</span></td>
+    </tr>
+    <!--          -->
+    <tr><td colspan="3">&nbsp;</td></tr>
+    <!-- Gas      -->
+    <tr class='hw'>
+      <td class="small light bright hw1"><span class="fas fa-burn fa-fw">&nbsp;</span></td>
+      <td class="small light bright hw2">&nbsp;</td>
+      <td class="small light bright hw3">{{ hwgastotaal }} <span class="small light dimmed">m<sup>3</sup></span></td>
+    </tr>
+    <!-- Rain     -->
+    <tr class='hw'>
+      <td class="small light bright hw1"><span class="fas fa-umbrella fa-fw">&nbsp;</span></td>
+      <td class="small light bright hw2">&nbsp;</td>
+      <td class="small light bright hw3">{{ hwregentotaal }} <span class="small light dimmed">mm</span></td>
+    </tr>
+    <!-- Temp     -->
+    <tr class='hw'>
+      <td class="small light bright hw1"><span class="fas fa-thermometer-three-quarters fa-fw">&nbsp;</span></td>
+      <td class="small light bright hw2">&nbsp;</td>
+      <td class="small light bright hw3">{{ hwtemptotaal}} <span class="small light dimmed">&#8451;</span></td>
+    </tr>
+
   </table>
 </div>

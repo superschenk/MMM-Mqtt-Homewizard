@@ -1,0 +1,29 @@
+table.hw {
+  margin: 0px;
+  padding: 0px;
+  border-collapse: collapse;
+}
+
+tr.hw {
+  margin: 0px;
+  padding: 0px
+}
+
+td.hw1 {
+  margin: 0px;
+  padding: 2px;
+  text-align: right;
+  width: 25px;
+}
+
+td.hw2 {
+  margin: 0px;
+  padding: 0px;
+  width: 70px;
+}
+
+td.hw3 {
+  margin: 0px;
+  padding: 0px;
+  width: 90px;
+}
