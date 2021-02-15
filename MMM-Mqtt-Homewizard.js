@@ -12,6 +12,7 @@ Module.register('MMM-Mqtt-Homewizard', {
   defaults: {
     mqttServer: 'mqtt://',
     topic: '',
+    header: '',
   },
 
   start: function() {
@@ -23,6 +24,10 @@ Module.register('MMM-Mqtt-Homewizard', {
     var self = this;
     self.sendSocketNotification('MQTT_SERVER', { mqttServer: self.config.mqttServer, topic: self.config.topic });
     this.updateDom();
+  },
+
+  getHeader: function() {
+  	return this.config.header;
   },
 
   getTemplate: function () {
